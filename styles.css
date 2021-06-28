@@ -1,0 +1,572 @@
+/* NAV BAR */
+
+.logo2{
+    display: none;
+}
+.dropbtn {
+    background-color:transparent;
+    color: black;
+    padding: 16px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: hidden;
+   
+    margin-left: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #007259;
+    border-bottom: 4px solid #007259;
+}
+
+@media(max-width: 1028px) {
+    
+    .logo2{
+          display:inline-block;
+          width: 30%;
+    }
+    .familyy{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .book_but{
+        display: none;
+    }
+   .content{
+float: right;
+       position: relative;
+       top: 15%;
+       left: -32%;
+   
+   }
+   .content2{
+       float: left;
+    position: relative;
+    top: 85%;
+    width: 500%;
+  
+    
+}
+.button{
+    display: none;
+}
+
+    
+}
+@media(min-width:900px){
+    
+}
+
+
+
+/* SECTION ONE */
+
+.first{
+    background-color: rgb(248 244 239);
+}
+.image{
+   height: 600px;
+
+}
+
+.logo{
+    margin-top: 120px;
+    margin-left: -60px;
+}
+.num{
+  
+    width: 70%;
+    margin-left: 19%;margin-top: 6px;
+}
+
+.family{
+    color:#007259; font-size: 30px;font-family: 'Times New Roman', Times, serif;position: relative;left: 30%;
+}
+.book_appoin{
+    
+    position: relative;left: 23%;top:25px;
+    width: 60%;
+    padding:10px;
+}
+
+.head{
+    
+    text-align: center;
+    line-height: 3;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head2{
+    margin-top: 50px;margin-bottom: -20px;
+    color: grey;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line{
+    margin-top: -16.5px;
+    color:darkgreen;
+    position: relative;
+    left: 499px;
+    width: 10%;
+    height: 5px!important;
+}
+
+                                    /* section TWO  */
+.welcome{
+    padding: 125px;
+}
+
+#sectiontwo .btn{
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    height:45px;
+    border-radius: 5px;
+    border-color:  black;
+    border: 1 px solid black;
+    
+     display:inline-block;
+    text-align: center;
+    font-size:23px;
+    font-weight: 400;
+}
+/* div of three buttons */
+.threebutton{
+    margin-top: -43px;
+    margin-bottom: 110px;
+    padding:30px 180px;
+    display:inline-block;
+  
+}
+.but2{
+    margin-left: 40px;
+}
+.but3{
+    margin-left: 40px;
+    position: relative;
+    left:1%;
+    top: -1.5px;
+}
+
+/* section three */
+#sectionthree{
+    
+    background-color: rgba(232, 220, 203, 0.5);
+}
+.dr1{
+  margin-left: -70px;
+    width: 400px;
+    height:400px
+}
+.line2{
+    margin-top: -16.5px;
+    color:darkgreen;
+    position: relative;
+    left: 615px;
+    width: 10%;
+    height: 5px!important;
+}
+
+.head3{
+    margin-top: 25px;
+  padding-top: 40px;
+    text-align: center;
+    line-height: 3;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line3{
+    margin-top: -16.5px;
+    color:darkgreen;
+    position: relative;
+    left: 610px;
+    width: 10%;
+    height: 5px!important;
+}
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.dr2{
+    margin-left: -70px;
+      width: 400px;
+      height:400px;
+      margin-bottom:105px;
+  }
+  
+/* SECTION 4 */
+#sectionfour li {
+    margin-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 630px;
+    text-transform: uppercase;
+    height: 68px;
+    font-size: 24px;
+    border: 1px solid #007259;
+    margin: 4px 4px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+.left{
+    text-decoration: none;
+    background-color: rgba(232, 220, 203, 0.3);
+}
+.right{
+    text-decoration: none;
+    background-color: rgba(195, 213, 207, 0.3);
+}
+
+/* <!-- SECION FIVE  --> */
+#sectionfive{
+    background-color: #f1f1f1;
+    height: 1000px;
+}
+.help{
+    padding-top: 50px;
+
+}
+.line5{
+    margin-top: -16.5px;
+    margin-bottom: 60px;
+    color:darkgreen;
+    position: relative;
+    left: 615px;
+    width: 10%;
+    height: 5px!important;
+}
+.team_img{
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 10%;
+    border: 10px solid #f1f1f1;
+}
+ .team1{
+    position: relative;
+    left: 33%;
+} 
+.team2{
+     position: relative;
+     left: 16%;
+}
+.team3{
+    position: relative;
+     left: 2%; 
+}
+.team4{
+    position: relative;
+     left: -12%; 
+}
+.team5{
+    position: relative;
+     left: 44%; 
+}
+.team6{
+    position: relative;
+     left: 12%; 
+}
+.team7{
+    position: relative;
+     left: -20%; 
+}
+
+.text-wrap{
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 12px;
+ 
+}
+.text1{
+    position: relative;
+    left: 33%;
+}
+.text2{
+    position: relative;
+    left: 16%;
+}
+.text3{
+    position: relative;
+    left: 4%;
+}
+.text4{
+    position: relative;
+    left: -12%;
+}
+.text5{
+    position: relative;
+    left: 44%;
+}
+.text6{
+    position: relative;
+    left: 12%;
+}
+.text7{
+    position: relative;
+    left: -20%;
+}
+.col{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:#007259 ;
+    font-size: 26px;
+}
+/* SECTION6 */
+
+
+.container{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  
+  }
+  
+  /* .container img {vertical-align: middle;} */
+  
+.container .content {
+    margin: 0;
+    position: absolute;
+    bottom: 35px;
+    left: 25%;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity*/
+    color: #f1f1f1;
+    width: 44%;
+    font-size: 23px;
+    font-family: "Castoro", seri;
+    padding: 22px;
+    letter-spacing: 2px;
+    border-radius: 5%;
+    border:1px solid white;
+  } 
+  
+  
+  
+  .philo{
+    text-align: center;
+    margin: -24px auto;
+    position: relative;
+    top: -89px;
+    letter-spacing: 13px;
+    color: white;
+  }
+  /* section7 */
+
+  .insurance1{
+      width: 900px;
+      margin: 13px auto;
+      font-size: 24px;
+      font-weight: 200;
+      font-family: 'Times New Roman', Times, serif;
+      color: gray;
+      text-align: center;
+    
+  }
+  .insurance2{
+      width: 67%;
+      margin:15px auto;
+  }
+  
+  .cmpny{
+    
+      display: inline-block;
+      width: 150px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid;
+      border-radius: 5px;
+      background: white;
+      align-items: center;
+  }
+ .img-responsive{
+     width: 100%;
+     height: auto;
+ }
+ .row2{
+margin-left: 75px;
+ }
+ .button{
+     
+     margin-left: 25%;
+     margin-top: 18px;
+     width: 50%;
+     height: 43px;
+     border-radius: 1%;
+     
+ }
+.img6{
+    margin-left: 82px;
+}
+                          /* section8 */
+ #section8{
+     margin-top: 40px;
+     height:470px;
+     width: 100%;
+     background-image: url('images/landscap.jpg');
+     background-size:100%;background-repeat:no-repeat;
+ }
+ .container{
+    
+     padding: 1rem;
+     background-color:rgba(0, 0, 0, 0.5) ;
+     color: white;
+  
+ }
+ .heading{
+     margin-top: 23px;
+ 
+   
+   
+ }
+ .patient{
+   
+     text-align: center;
+     font-size: 40px;
+     margin:0 0 0.5em 0;
+     padding:0;
+     letter-spacing: 10px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .para{
+     margin-top: 5%;
+     font-size: 24px;
+     width: 85%;
+     text-align: center;
+     padding-left: 11%;
+     font-style: italic;
+     font-family: "Castoro", serif ;
+ }
+ .slide_line{
+    margin-top: 70px;
+    margin-bottom: 60px;
+    color:#f1f1f1;
+    position: relative;
+    left: 400px;
+    width: 10%;
+    height: 5px!important;
+ }
+ .author{
+     display: block;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 22px;
+     position: relative;
+     left: 43%;
+     color: #f1f1f1;
+
+ }
+ 
+ .stars{
+     position: relative;
+    left: 44%;
+ }.d-block{
+     width: 10%;
+ }.google{
+     position: relative;
+     left: 44%;
+     
+ }
+
+/* SECTION 9 */
+
+
+
+ .officetitle{
+    position: relative;
+    left:270px;
+    top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:#007259;
+    letter-spacing: 30%;
+}
+.location-time li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted;
+    color:#363636 !important;
+    position:relative;
+    left:140px;
+    top:80px;
+}
+
+.time{
+   position: relative; 
+   left: 100px;
+}
+.location{
+    position: relative;
+    left:500px;
+}
+.loctitle{
+    margin-top: 60px;
+    color:#007259;
+    font-family: 'Times New Roman', Times, serif;
+}
+.locdescr{
+    position:relative;
+    top:30px;
+}
+  
+.phon{
+    background-color: #e8dccb;
+    width: 160;
+    height:40px;
+    border-color:  black;
+    border-radius: 20px;
+}
+
+.icons{
+    margin-top: 12px;
+position: relative;
+left: 6%;
+color: #007259;
+font-size: 35px;
+
+}
+/* section 10*/
+.privacy{
+margin-top: 74px;
+    color: #007259;
+    padding-top: 30px;
+    word-spacing: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.final{
+    background-color: #007259;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
